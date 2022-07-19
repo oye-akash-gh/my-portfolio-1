@@ -1,0 +1,137 @@
+body{
+    color: #40514E;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66bfbf;
+    font-size: 90px;
+    font-family: 'Sacramento', cursive;
+    width: 28%;
+    margin: 50px auto 0 auto;
+}
+
+h2{
+    color: #66bfbf;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+hr{
+    border: dotted #11999E 5px;
+    width: 4%;
+    margin: 100px auto;
+    border-bottom: none;
+}
+
+p{
+    line-height: 2;
+}
+.pro{
+    text-decoration: underline;
+}
+.programmer{
+    font-size: large;
+}
+.intro{
+    width: 27%;
+    margin: auto;
+}
+.cloud1{
+    width: 180px;
+    height: 120px;  
+    position: absolute;
+    top:  80px;
+    right: 200px;
+}
+
+.cloud2{
+    width: 180px;    
+    height: 120px;
+    position: absolute;
+    bottom: 350px;
+    left: 250px;
+}
+
+.mountain{
+    width: 600px;
+    height: 400px;
+}
+
+.profile-img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    padding: 5px;
+    text-align: left;
+}
+.skill-row, .skill-row-aligned-right::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.skill-row-aligned-right{
+    width: 50%;
+    margin: 100px auto;
+    padding: 5px;
+    text-align: left;  
+}
+
+.web-design-img, .c-img{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.web-dev-img{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.top-container{
+    background-color: #e4f9f5;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px 0 50px 0;    
+}
+
+.bottom-container{
+    background-color: #66bfbf;
+}
+.internship{
+    background-color: #e4f9f5;
+    width: 30%;
+    padding: 3px;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+.keep-in-touch{
+    width: 25%;
+    margin: auto;
+}
+.icon{
+    width: 35px;
+    margin: 30px 30px 0;
+}
+.end{
+    margin-bottom: 0;
+}
